@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+.header-bannar {
+    align-items: center;
+    width: 1320px;
+    height: 600px;
+    margin:
+}
+
+
+.header-bannar-color {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    margin: 60px auto;
+    align-items: center;
+    width: 1320px;
+    height: 600px;
+   }
+   */
+
+.header-bannar-img {
+    margin: 60px auto;
+    align-items: center;
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(to top 180deg, #070211 0%, rgba(7, 2, 17, 0.00) 75%) url('/resources/Banner\ Image.png');
+
+}
+
+.text-overlay {
+
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    margin: 177 auto;
+}
+
+.header-text-h2 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.header-text-p {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+}
+
+
+
+.offer {
+    text-align: center;
+}
+
+.section-offer-h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.section-offer-deals {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 48px auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.section-offer-categories {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-offer-img {
+    margin-top: 70;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Welcome to midnight party*/
+
+.section-party-img {
+    width: 1320px;
+    height: 600px;
+    
+
+}
+
+.overlay-party{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    margin: 177 auto;
+}
