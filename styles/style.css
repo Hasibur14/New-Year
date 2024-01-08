@@ -28,12 +28,12 @@
     width: 1320px;
     height: 600px;
     background-image: linear-gradient(to top 180deg, #070211 0%, rgba(7, 2, 17, 0.00) 75%) url('/resources/Banner\ Image.png');
-
+    opacity: .85;
 }
 
-.text-overlay {
+.text-overlay-header {
 
-    position:absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -114,24 +114,153 @@
     margin-top: 70;
     margin-left: auto;
     margin-right: auto;
+
 }
+
 
 
 /*Welcome to midnight party*/
+.image-container {
 
-.section-party-img {
     width: 1320px;
     height: 600px;
-    
+}
+
+.vectorrr {
+    align-items: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
-.overlay-party{
+.overlay-text {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 15%;
+    transform: translate(0%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+
+}
+
+
+.text-party-h2 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300px;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+
+}
+
+.text-party-p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+
+}
+
+.party-button {
     color: #FFF;
     text-align: center;
-    margin: 177 auto;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: #1e0852;
+}
+
+/*time-place-date*/
+
+.container-timeplace-bcolor {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+    margin: 120px auto;
+    border-radius: 16px;
+}
+
+button {
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    margin: 48px auto;
+}
+
+button:hover {
+    background-color: rgb(30, 153, 210);
+}
+
+.container-timeplace-main {
+    align-items: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-timeplace-p {
+    _ color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.container-span {
+    color: #F00;
+
+}
+
+
+
+/*offer coming soon*/
+
+.container-bcolor {
+
+    width: 463px;
+    height: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.container-img {
+    width: 364.844px;
+    height: 364.844px;
+}
+.overly-bcolor-img{
+    
+}
+.container5-body{
+    display: flex;
 }
