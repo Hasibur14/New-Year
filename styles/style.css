@@ -365,7 +365,7 @@ button:hover {
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
-    margin-top: 16px;
+
 }
 
 .Portfolio-p {
@@ -402,7 +402,7 @@ button:hover {
 
 .subscribe-container-img {
     text-align: center;
-    margin top: 150px;
+    padding-top: 60px;
 }
 
 .subscribe-container-h2 {
@@ -414,6 +414,7 @@ button:hover {
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
+    padding-top: 35px;
 }
 
 .subscribe-container-p {
@@ -462,5 +463,62 @@ input {
 .subscribe-containe-btn {
     margin: 50px 250px;
     display: flex;
-    border: 0;
+}
+
+/*footer section*/
+
+.footer-background {
+    width: 1600px;
+    height: 609px;
+    background: #8e5df0;
+    padding-top: 120px;
+
+}
+
+.footer-container-address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    width: 375px;
+    padding-left: 140px;
+
+}
+
+.rights-reserved {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 400px;
+    padding-left: 140px;
+}
+
+
+.footer-img {
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    margin-left: 300px;
+}
+
+.footer-website {
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    display:contents;
+    
+}
+
+.footer-main{
+    display: flex;
 }
