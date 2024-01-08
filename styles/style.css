@@ -129,6 +129,7 @@
     background-blend-mode: multiply;
     margin: 50px auto;
     border-radius: 16px;
+    position: relative;
 }
 
 .overlay-text-party {
@@ -297,28 +298,93 @@ button:hover {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 100px;
+
 }
 
 .container5-right-p2 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 350px;
+
+    margin-top: 10px;
+}
+
+.container5-img2 {
+    width: 140px;
+    height: 135px;
+    margin-inline-end: auto;
+}
+
+.container5-body {
+    background: rgb(250, 249, 249);
+    width: 1320px;
+    height: 435px;
+    margin: 40px auto;
+    border-radius: 16px;
+    display: flex;
+}
+
+.con-text-1 {
+    margin-top: 100px;
+    margin-right: 120px;
+}
+
+.con-text-2 {
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+
+/*Our Awesome Portfolio*/
+.Portfolio-background {
+    background-color: rgb(247, 214, 220);
+    background: rgb(250, 249, 249);
+    width: 1320px;
+    height: 1220px;
+    margin: 75px auto;
+    border-radius: 16px;
+}
+
+.Portfolio-h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Portfolio-h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+
+.Portfolio-p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    margin-top: 16px;
+    width: 896px;
+    height: 60px;
+    margin-top: 22px;
 }
 
-.container5-img2 {
-    width: 140px;
-    height: 140px;
-    margin-top: 42px;
-}
+.portfolio-img{
+    margin-top: 80px;
+    height: 100%;
+    width: 100%;
+    
 
-.container5-body {
-    display: flex;
-    margin-left: 140px;
-
-  
-
+    
 }
