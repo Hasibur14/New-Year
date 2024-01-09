@@ -36,7 +36,6 @@
     color: #FFF;
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
     line-height: 95px;
     width: 600px;
@@ -52,9 +51,7 @@
     text-align: center;
     font-family: Inter;
     font-size: 88px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     margin-top: 120px;
     margin-left: auto;
     margin-right: auto;
@@ -65,9 +62,7 @@
     text-align: center;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     margin: 48px auto;
     margin-left: auto;
     margin-right: auto;
@@ -78,9 +73,7 @@
     text-align: center;
     font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     margin-top: 16px;
     margin-left: auto;
     margin-right: auto;
@@ -238,7 +231,6 @@ button:hover {
 /*offer coming soon*/
 
 .container-bcolor {
-
     width: 463px;
     height: 463px;
     border-radius: 463px;
@@ -303,7 +295,7 @@ button:hover {
 }
 
 .container5-body {
-    background: rgb(250, 249, 249);
+    background: white;
     width: 1320px;
     height: 435px;
     margin: 40px auto;
@@ -324,14 +316,16 @@ button:hover {
 /*Container6, holiday sale */
 
 .container-holiday-background {
-    background-color: rgb(241, 201, 119);
+    background-color: white;
     width: 1320px;
     height: 900px;
-    margin: 120px auto;   
+    margin: 120px auto;
 }
+
 .container-holiday-text {
     text-align: center;
 }
+
 .container-holiday-text-h1 {
     color: #F00;
     text-align: center;
@@ -339,12 +333,14 @@ button:hover {
     font-size: 72px;
     font-weight: 900;
 }
+
 .container-holiday-text-h3 {
     color: #070211;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
 }
+
 .container-holiday-text-p {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
@@ -354,41 +350,51 @@ button:hover {
     line-height: 32px;
     width: 1068px;
 }
+
 .container-holiday-img-p1 {
     position: relative;
     justify-content: right;
-    margin-top:32px ;
+    margin-top: 32px;
 }
-.container-holiday-img1{
+
+.container-holiday-img1 {
     width: 415px;
     height: 420px;
     border-radius: 16px 16px 0px 0px;
     margin-left: 890px;
 }
+
 .container-holiday-img2 {
     width: 1320px;
     height: 150px;
     border-radius: 16px 0px 16px 16px;
 }
-.container-holiday-img-p2{
+
+.container-holiday-img-p2 {
     display: flex;
-    position: absolute;
-    transition: bottom 0.5s ease-in-out;;   
-    text-align: top;
-}
-.img1-p2{
+    position:absolute;
+   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-block-end: auto;
 
 }
-.img2-p2{
 
+.img1-p2 {
+    height: 100%;
+    width: 100%;
 }
 
-
+.img2-p2 {
+    width: 206.841px;
+    height: 206.841px;
+}
 
 /*Our Awesome Portfolio*/
 .Portfolio-background {
-    background-color: rgb(247, 214, 220);
-    background: rgb(250, 249, 249);
+    background-color: white;
+
     width: 1317px;
     height: 1185px;
     margin: 75px auto;
