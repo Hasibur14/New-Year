@@ -321,6 +321,70 @@ button:hover {
     margin-left: 120px;
 }
 
+/*Container6, holiday sale */
+
+.container-holiday-background {
+    background-color: rgb(241, 201, 119);
+    width: 1320px;
+    height: 900px;
+    margin: 120px auto;   
+}
+.container-holiday-text {
+    text-align: center;
+}
+.container-holiday-text-h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.container-holiday-text-h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.container-holiday-text-p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 1068px;
+}
+.container-holiday-img-p1 {
+    position: relative;
+    justify-content: right;
+    margin-top:32px ;
+}
+.container-holiday-img1{
+    width: 415px;
+    height: 420px;
+    border-radius: 16px 16px 0px 0px;
+    margin-left: 890px;
+}
+.container-holiday-img2 {
+    width: 1320px;
+    height: 150px;
+    border-radius: 16px 0px 16px 16px;
+}
+.container-holiday-img-p2{
+    display: flex;
+    position: absolute;
+    transition: bottom 0.5s ease-in-out;;   
+    text-align: top;
+}
+.img1-p2{
+
+}
+.img2-p2{
+
+}
+
+
+
 /*Our Awesome Portfolio*/
 .Portfolio-background {
     background-color: rgb(247, 214, 220);
