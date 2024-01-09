@@ -135,7 +135,8 @@
 .overlay-text-party {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-top: 125px;
+    margin-left: 126px;
     background-color: rgb(7, 2, 17, 0.00)
 }
 
@@ -149,7 +150,7 @@
     line-height: 88px;
     letter-spacing: 7.04px;
     margin-top: 126px;
-    margin-left: 126px;
+    margin-left:7px;
 
 }
 
@@ -263,9 +264,7 @@ button:hover {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
 
 }
 
@@ -273,9 +272,7 @@ button:hover {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
 
 }
@@ -284,7 +281,6 @@ button:hover {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     width: 393px;
     line-height: 32px;
@@ -295,11 +291,8 @@ button:hover {
     color: #F00;
     font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     margin-top: 100px;
-
 }
 
 .container5-right-p2 {
@@ -307,8 +300,7 @@ button:hover {
     font-family: Inter;
     font-size: 25px;
     font-style: normal;
-    font-weight: 350px;
-
+    
     margin-top: 10px;
 }
 
@@ -333,7 +325,7 @@ button:hover {
 }
 
 .con-text-2 {
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 120px;
 }
 
@@ -342,8 +334,8 @@ button:hover {
 .Portfolio-background {
     background-color: rgb(247, 214, 220);
     background: rgb(250, 249, 249);
-    width: 1320px;
-    height: 1220px;
+    width: 1317px;
+    height: 1185px;
     margin: 75px auto;
     border-radius: 16px;
 }
@@ -352,18 +344,15 @@ button:hover {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+
 }
 
 .Portfolio-h2 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
 
 }
@@ -383,8 +372,12 @@ button:hover {
 .portfolio-img {
     margin-top: 80px;
     height: 100%;
-    width: 100%;
+    width: 100;
 
+}
+
+.portfolio-img img {
+    padding: 6px;
 }
 
 
@@ -397,9 +390,7 @@ button:hover {
     height: 616px;
     margin: 75px auto;
     border-radius: 16px;
-
 }
-
 .subscribe-container-img {
     text-align: center;
     padding-top: 60px;
@@ -410,9 +401,7 @@ button:hover {
     text-align: center;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
     padding-top: 35px;
 }
@@ -423,7 +412,6 @@ button:hover {
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
     margin: 22px auto;
@@ -431,7 +419,7 @@ button:hover {
 
 }
 
-input {
+.subscribe-container-btn input {
     width: 648px;
     height: 72px;
     border-radius: 50px 0px 0px 50px;
@@ -440,9 +428,10 @@ input {
     text-align: center;
     font-family: Inter;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    margin-top: 48px;
+    border: none;
+
 }
 
 .subscribe-button {
@@ -454,71 +443,79 @@ input {
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-transform: capitalize;
 }
 
-.subscribe-containe-btn {
-    margin: 50px 250px;
+.subscribe-container-btn {
+    margin: 25px 250px;
     display: flex;
+
 }
+
 
 /*footer section*/
 
 .footer-background {
-    width: 1600px;
-    height: 609px;
-    background: #8e5df0;
-    padding-top: 120px;
 
+    height: 609px;
+    background-color: rgb(2, 19, 13);
+    display: grid;
+    grid-template-columns: repeat(3, 700px);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-website {
+    margin-top: 120px;
+    margin-left:0px;
+}
+
+.footer-main {
+    padding-left: 270px;
 }
 
 .footer-container-address {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 40px;
-    width: 375px;
-    padding-left: 140px;
-
+    width: 380px;
+    height: 80px;
+    padding-top: 120px;
 }
 
 .rights-reserved {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    padding-top: 400px;
-    padding-left: 140px;
+    margin-top: 260px;
 }
 
 
 .footer-img {
-    width: 64px;
-    height: 64px;
-    text-align: center;
-    padding: 10px;
-    display: flex;
-    margin-left: 300px;
+    margin-top: 298px;
+    margin-left: 140px;
+}
+.footer-img img{
+    margin-right: 20px;
 }
 
-.footer-website {
-    color: #ffffff;
+.footer-website-phn {
+    display: flex;
+
+}
+
+.footer-website-web {
+    display: flex;
+
+}
+
+.footer-button {
+    margin-top: 260px;
+    margin-right: 140px;
+    margin-left: 130px;
+    color: #FFF;
+    background-color:black;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 40px;
-    display:contents;
-    
+
 }
 
-.footer-main{
-    display: flex;
-}
